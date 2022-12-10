@@ -13,11 +13,16 @@ cdktf provider add "aws@~>4.0"
 cdktf get
 ```
 
-## deploy
+Initialize the Lambda with:
 
 ```bash
 cd src/lambda
 npm install
+```
+
+## deploy
+
+```bash
 cdktf deploy
 ```
 
