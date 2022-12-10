@@ -1,0 +1,18 @@
+{
+  "language": "typescript",
+  "app": "npx ts-node src/main.ts",
+  "projectId": "b07125c9-7144-4c48-9e37-98d572f7fc28",
+  "sendCrashReports": "true",
+  "terraformProviders": [],
+  "terraformModules": [
+    {
+      "name": "lambda",
+      "source": "terraform-aws-modules/lambda/aws",
+      "version": "~> 3.0"
+    }
+  ],
+  "context": {
+    "excludeStackIdFromLogicalIds": "true",
+    "allowSepCharsInLogicalIds": "true"
+  }
+}
